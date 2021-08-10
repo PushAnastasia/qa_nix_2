@@ -3,7 +3,8 @@ package ua.com.alevel;
 import java.util.Scanner;
 
 public class testReverseString {
-    reverseString reverseString = new reverseString();
+
+    ReverseString reverseString = new ReverseString();
     Scanner scanner = new Scanner(System.in);
 
     public void reverseWholeString() {

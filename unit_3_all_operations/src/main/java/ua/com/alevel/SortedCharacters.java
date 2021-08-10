@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.TreeMap;
 
 public class SortedCharacters {
+
     public void run() {
         String input = null;
         System.out.println("Please, enter your value.");

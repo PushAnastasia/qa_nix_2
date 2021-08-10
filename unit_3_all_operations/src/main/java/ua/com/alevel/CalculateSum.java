@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class CalculateSum {
+
     public void run() {
         int sum = 0;
         String input = null;

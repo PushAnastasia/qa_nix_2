@@ -3,6 +3,7 @@ package ua.com.alevel;
 import java.util.Scanner;
 
 public class ArraysAndStringMain {
+
     public static void main(String[] args) {
         String newline = System.lineSeparator();
         String prompt = "Please,select which reverse method you would like to use:"
@@ -16,7 +17,7 @@ public class ArraysAndStringMain {
         Scanner scanner = new Scanner(System.in);
         int choice = scanner.nextInt();
 
-        testReverseString test = new testReverseString();
+        TestReverseString test = new TestReverseString();
 
         switch (choice) {
             case 1:
@@ -39,5 +40,4 @@ public class ArraysAndStringMain {
                 break;
         }
     }
-
 }

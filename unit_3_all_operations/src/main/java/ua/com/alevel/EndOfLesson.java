@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class EndOfLesson {
+
     public void run() {
         int lessonsStartHour = 9;
         int lessonLengthMinutes = 45;
