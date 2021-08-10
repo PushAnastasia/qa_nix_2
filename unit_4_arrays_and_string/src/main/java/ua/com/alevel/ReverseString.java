@@ -1,6 +1,6 @@
 package ua.com.alevel;
 
-public class reverseString {
+public class ReverseString {
 
     public static String reverse(String src, boolean reverseAll) {
         String result = "";

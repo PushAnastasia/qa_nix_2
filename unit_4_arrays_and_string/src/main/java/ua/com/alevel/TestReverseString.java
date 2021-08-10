@@ -2,7 +2,7 @@ package ua.com.alevel;
 
 import java.util.Scanner;
 
-public class testReverseString {
+public class TestReverseString {
 
     ReverseString reverseString = new ReverseString();
     Scanner scanner = new Scanner(System.in);
