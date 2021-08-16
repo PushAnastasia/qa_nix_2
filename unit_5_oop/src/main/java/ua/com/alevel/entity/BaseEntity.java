@@ -12,6 +12,7 @@ public abstract class BaseEntity {
         return id;
     }
 
+//    здесь не нужен toString() - ты все равно его перебиваешь в наследниках
     public String toString() {
         return "Id = " + id;
     }
