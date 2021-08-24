@@ -61,7 +61,7 @@ public class BookController {
     }
 
     private void create(BufferedReader reader) {
-        System.out.println("UserController.create");
+        System.out.println("BookController.create");
         try {
             System.out.println("Please enter a name of the book");
             String name = reader.readLine();
@@ -81,7 +81,7 @@ public class BookController {
     }
 
     private void update(BufferedReader reader) {
-        System.out.println("UserController.update");
+        System.out.println("BookrController.update");
         try {
             System.out.println("Please enter Id");
             String id = reader.readLine();
@@ -104,7 +104,7 @@ public class BookController {
     }
 
     private void delete(BufferedReader reader) {
-        System.out.println("UserController.delete");
+        System.out.println("BookController.delete");
         try {
             System.out.println("Please enter Id");
             String id = reader.readLine();
@@ -115,7 +115,7 @@ public class BookController {
     }
 
     private void findById(BufferedReader reader) {
-        System.out.println("UserController.findById");
+        System.out.println("BookController.findById");
         try {
             System.out.println("Please enter Id");
             String id = reader.readLine();
@@ -127,7 +127,7 @@ public class BookController {
     }
 
     private void findAll(BufferedReader reader) {
-        System.out.println("UserController.findAll");
+        System.out.println("BookController.findAll");
         Book[] books = bookService.findAll();
         for (Book book : books) {
             System.out.println("book = " + book);

@@ -6,7 +6,7 @@ import java.util.UUID;
 
 public class BookDB {
 
-    private Book[] books = new Book[1];
+    private Book[] books = new Book[10];
 
     public void create(Book book) {
         book.setId(generateId());
@@ -37,9 +37,6 @@ public class BookDB {
             } else {
                 books[i] = books[i + 1];
             }
-        }
-        if (books.length > 1) {
-            decreaseBooks();
         }
     }
 
@@ -72,17 +69,8 @@ public class BookDB {
     }
 
     private Book[] increaseBooks() {
-        Book[] tempBooks = new Book[books.length + 1];
+        Book[] tempBooks = new Book[books.length + 10];
         for (int i = 0; i < books.length; i++) {
-            tempBooks[i] = books[i];
-        }
-        books = tempBooks;
-        return books;
-    }
-
-    private Book[] decreaseBooks() {
-        Book[] tempBooks = new Book[books.length - 1];
-        for (int i = 0; i < tempBooks.length; i++) {
             tempBooks[i] = books[i];
         }
         books = tempBooks;
